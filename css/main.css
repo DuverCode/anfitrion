@@ -453,30 +453,132 @@ textarea {
   display: block;
   text-align: center;
   padding: 21px 0;
+  width: 100%;
 }
 .mapa-como-llegar-titulo:hover{
   color: #fff;
 }
 .mapa-como-llegar-titulo {
   color: #fff;
-  padding: 32px 0;
   width: 100%;
-  display: block;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  border-right: 0;
 }
 .pie-pagina-item h6,
-.pie-pagina-item p {
+.pie-pagina-item p,
+.pie-redes h6 {
   padding: 0;
   margin: 0;
   color: #fff;
 }
-.pie-pagina-item p{
+.pie-pagina-item p,
+.pie-pagina-item a {
   color: #a9a9a9;
+  font-size: 14px;
 }
 .pie-pagina-item h6 {
   font-weight: 500;
 }
 .pie-pagina-item {
-  padding: 10px 8px;
   display: block;
   width: 100%;
+  border-top: 0;
+  height: 100%;
+}
+.mapa-opciones {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.pie-pagina-modificador {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.pie-idioma {
+  border-top: 0;
+  width: 100%;
+  max-width: 39px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pie-redes {
+  width: 100%;
+  height: 100%;
+  border-top: 0;
+  border-right: 0;
+}
+.pie-rrss {
+  display: flex;
+  justify-content: space-between;
+}
+.pie-idioma a:first-child {
+  border-bottom: 2px solid #fff;
+  width: 100%;
+  display: block;
+}
+.pie-idioma a{
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  display: block;
+  padding: 12px 0;
+}
+.pie-pagina-contacto {
+  border: 0;
+  border-bottom: 2px solid #fff;
+}
+.pie-redes h6 {
+  padding-bottom: 10px;
+}
+.pie-idioma a:hover {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+.pie-pagina-item a{
+  color:#a9a9a9;
+}
+.pie-pagina-item a:hover{
+  color: #a9a9a9;
+  text-decoration: none;
+} 
+input#email-newsletter {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  padding: 9px 0;
+}
+input#email-newsletter:focus{
+  outline: 0;
+}
+.pie-submenu ul {
+  padding: 0;
+  margin: 0;
+}
+.pie-submenu ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pie-submenu ul li a {
+  color: #fff;
+  font-size: 12px;
+}
+.pie-submenu ul li a:hover{
+  color:a9a9a9;
+}
+.pie-submenu {
+  width: 100%;
+}
+.pie-submenu ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
