@@ -620,3 +620,26 @@ input#email-newsletter:focus{
   width: 100%;
   max-width: 246px;
 }
+.items-servicios-incluidos {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.item-servicios-incluidos p {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 7px;
+}
+.item-servicios-incluidos {
+  text-align: center;
+}
+.servicios-incluidos h6 {
+  text-align: center;
+  width: 100%;
+  font-weight: 700;
+}
+.item-servicios-incluidos img {
+  width: 45%;
+  height: auto;
+}
